@@ -19,6 +19,13 @@ class MemoryUnit
         ReginAddresult =d;
         
     }
+    MemoryUnit()
+    {
+         ReginZero="";
+        ReginALUResult=0;
+        ReginReadData2=0;
+        ReginAddresult ="";
+    }
     
     int RegoutALUResult = ReginALUResult;
     void MemoryAccess()
